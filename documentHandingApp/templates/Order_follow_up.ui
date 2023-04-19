@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>1003</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ActionsContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_15">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_31">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>1000</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>977</width>
+          <height>3864</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QGroupBox" name="groupBox_4">
+             <property name="title">
+              <string>CD</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_21">
+                <item>
+                 <widget class="QGroupBox" name="groupBox_11">
+                  <property name="title">
+                   <string>CUSTOMS DECLARANCE - SHIPMENT</string>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_23">
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_11">
+                       <item>
+                        <layout class="QHBoxLayout" name="horizontalLayout_26">
+                         <item>
+                          <widget class="QLabel" name="label_7">
+                           <property name="minimumSize">
+                            <size>
+                             <width>135</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="text">
+                            <string>实际客户编号：</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLineEdit" name="t_order_3">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>171</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="text">
+                            <string/>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QHBoxLayout" name="horizontalLayout_28">
+                         <item>
+                          <widget class="QLabel" name="label_8">
+                           <property name="minimumSize">
+                            <size>
+                             <width>135</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="text">
+                            <string>实际装运港编号：</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QComboBox" name="t_loading_port_0">
+                           <property name="minimumSize">
+                            <size>
+                             <width>171</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <layout class="QHBoxLayout" name="horizontalLayout_29">
+                         <item>
+                          <widget class="QLabel" name="label_11">
+                           <property name="minimumSize">
+                            <size>
+                             <width>135</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="text">
+                            <string>实际装柜工厂编号：</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QComboBox" name="t_order_p_contract_2">
+                           <property name="minimumSize">
+                            <size>
+                             <width>171</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </item>
+                       <item>
+                        <spacer name="verticalSpacer_13">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_12">
+                       <item>
+                        <widget class="QTableWidget" name="CUSTOMS_DECLARANCE_SHIPMENT">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>114</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QTableWidget" name="CUSTOMS_DECLARANCE_SHIPMENT2">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>114</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QTableWidget" name="CUSTOMS_DECLARANCE_SHIPMENT3">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>114</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QTableWidget" name="CUSTOMS_DECLARANCE_SHIPMENT4">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>114</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_12">
+                  <property name="title">
+                   <string>CD - CONTAINER - COMMODITY</string>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_19">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                     <item>
+                      <spacer name="horizontalSpacer_3">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>319</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="CD_CONTAINER_COMMODITY">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_3">
+             <property name="title">
+              <string>DN</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_22">
+              <item>
+               <widget class="QGroupBox" name="groupBox">
+                <property name="title">
+                 <string>DELIVERY NOTE</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_13">
+                   <item>
+                    <spacer name="horizontalSpacer_4">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeType">
+                      <enum>QSizePolicy::Minimum</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>319</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_23">
+                     <item>
+                      <widget class="QTableWidget" name="DELIVERY_NOTE">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="DELIVERY_NOTE2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_20">
+                <property name="title">
+                 <string>PC</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_12">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_14">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_17">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_60">
+                       <item>
+                        <widget class="QLabel" name="label_43">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>送货单编号：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_delivery_note_0">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_59">
+                       <item>
+                        <widget class="QLabel" name="label_42">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>PC：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_order_p_contract_0">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="DN_PC">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>114</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_13">
+                <property name="title">
+                 <string>COMMODITY	 </string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_5">
+                   <item>
+                    <spacer name="horizontalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeType">
+                      <enum>QSizePolicy::Minimum</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>319</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="DN_COMMODITY">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>114</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_5">
+             <property name="title">
+              <string>SP</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_27">
+              <item>
+               <widget class="QGroupBox" name="groupBox_7">
+                <property name="title">
+                 <string>PRE-SHIPMENT INSPECTION</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_9">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_22">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_10">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_7">
+                       <item>
+                        <widget class="QLabel" name="label_3">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>检验公司编号:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_inspection_com_0">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_12">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_24">
+                     <item>
+                      <widget class="QTableWidget" name="PRE_SHIPMENT_INSPECTION">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="PRE_SHIPMENT_INSPECTION2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="PRE_SHIPMENT_INSPECTION3">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_8">
+             <property name="title">
+              <string>FF</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_28">
+              <item>
+               <widget class="QGroupBox" name="groupBox_2">
+                <property name="title">
+                 <string>FORWARDER FEE</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_69">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_30">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_40">
+                       <item>
+                        <widget class="QLabel" name="label_16">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>货柜总数量：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLineEdit" name="t_shipment_11num">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_37">
+                       <item>
+                        <widget class="QLabel" name="label_31">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>货代公司编号:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_forwarder_0">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_5">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_7">
+                     <item>
+                      <widget class="QTableWidget" name="FORWARDER_FEE">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="FORWARDER_FEE2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_14">
+             <property name="title">
+              <string>BK</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QGroupBox" name="groupBox_17">
+                <property name="title">
+                 <string>BOOKING - SHIPMENT</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_65">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_32">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_70">
+                       <item>
+                        <widget class="QLabel" name="label_46">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>船公司编号:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_shipping_line_0">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_7">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_8">
+                     <item>
+                      <widget class="QTableWidget" name="BOOKING_SHIPMENT">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="BOOKING_SHIPMENT2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_15">
+                <property name="title">
+                 <string>BOOKING - CONTAINER	 </string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_66">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_33">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_38">
+                       <item>
+                        <widget class="QLabel" name="label_15">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>货柜种类：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_shipment_11type">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_8">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_25">
+                     <item>
+                      <widget class="QTableWidget" name="BOOKING_CONTAINER">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="BOOKING_CONTAINER2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_10">
+             <property name="title">
+              <string>CT</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <widget class="QGroupBox" name="groupBox_18">
+                <property name="title">
+                 <string>CD - CONTAINERS</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_20">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_72">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_34">
+                     <item>
+                      <spacer name="horizontalSpacer">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Minimum</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>319</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_26">
+                     <item>
+                      <widget class="QTableWidget" name="CD_CONTAINERS">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="CD_CONTAINERS2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_16">
+             <property name="title">
+              <string>UP</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_29">
+              <item>
+               <widget class="QGroupBox" name="groupBox_9">
+                <property name="title">
+                 <string>USD PAYMENTS</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_75">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_35">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_35">
+                       <item>
+                        <widget class="QLabel" name="label_13">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>出口合同号：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLineEdit" name="order_codeLineEdit">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_36">
+                       <item>
+                        <widget class="QLabel" name="label_14">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>待收金额：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLineEdit" name="ATBCLineEdit">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_3">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Minimum</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_76">
+                       <item>
+                        <widget class="QLabel" name="label_50">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>清关发票号:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_container_7">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_77">
+                       <item>
+                        <widget class="QLabel" name="label_51">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>iso国家三字代码:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_container_8">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_78">
+                       <item>
+                        <widget class="QLabel" name="label_52">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>汇款国家:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_container_9">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_10">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_18">
+                     <item>
+                      <widget class="QTableWidget" name="USD_PAYMENTS">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="USD_PAYMENTS2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="USD_PAYMENTS3">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="USD_PAYMENTS4">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>114</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_19">
+             <property name="title">
+              <string>PP</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <widget class="QGroupBox" name="groupBox_6">
+                <property name="title">
+                 <string>PC PAYMENTS</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_13">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_39">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_36">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_50">
+                       <item>
+                        <widget class="QLabel" name="label_33">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>PC:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="t_order_p_contract_0_1">
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_53">
+                       <item>
+                        <widget class="QLabel" name="label_36">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>待付金额:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLineEdit" name="ATBPLineEdit">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>171</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_11">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="PC_PAYMENTS">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>114</height>
+                      </size>
+                     </property>
+                     <property name="contextMenuPolicy">
+                      <enum>Qt::DefaultContextMenu</enum>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
