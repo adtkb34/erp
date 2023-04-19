@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>898</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Module</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QSplitter" name="splitter">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QTreeWidget" name="treeWidget">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ActionsContextMenu</enum>
+          </property>
+          <property name="headerHidden">
+           <bool>false</bool>
+          </property>
+          <attribute name="headerVisible">
+           <bool>true</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>文件名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>添加日期</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>负责人</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>发送对象</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ActionsContextMenu</enum>
+          </property>
+          <property name="tabsClosable">
+           <bool>true</bool>
+          </property>
+          <property name="movable">
+           <bool>true</bool>
+          </property>
+          <property name="tabBarAutoHide">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuorder">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuSend_file">
+     <property name="title">
+      <string>Send file</string>
+     </property>
+     <addaction name="actionEmail"/>
+     <addaction name="actionWechat"/>
+    </widget>
+    <widget class="QMenu" name="menuNew">
+     <property name="title">
+      <string>New</string>
+     </property>
+     <addaction name="actionInitialOrder"/>
+    </widget>
+    <addaction name="menuNew"/>
+    <addaction name="menuSend_file"/>
+    <addaction name="separator"/>
+    <addaction name="actionDatabases"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menuorder"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEmail">
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </action>
+  <action name="actionWechat">
+   <property name="text">
+    <string>Wechat</string>
+   </property>
+  </action>
+  <action name="actionDatabases">
+   <property name="text">
+    <string>Databases</string>
+   </property>
+  </action>
+  <action name="actionInitialOrder">
+   <property name="text">
+    <string>Order</string>
+   </property>
+  </action>
+  <action name="actionContract">
+   <property name="text">
+    <string>CD Contract</string>
+   </property>
+  </action>
+  <action name="actionCD_CI">
+   <property name="text">
+    <string>CD CI</string>
+   </property>
+  </action>
+  <action name="actionCD_P_LIST">
+   <property name="text">
+    <string>CD P.LIST</string>
+   </property>
+  </action>
+  <action name="actionCD">
+   <property name="text">
+    <string>CD </string>
+   </property>
+  </action>
+  <action name="actionCD_Elements">
+   <property name="text">
+    <string>CD Elements</string>
+   </property>
+  </action>
+  <action name="actionActual_CI">
+   <property name="text">
+    <string>Actual CI</string>
+   </property>
+  </action>
+  <action name="actionCI">
+   <property name="text">
+    <string>CI</string>
+   </property>
+  </action>
+  <action name="actionP_LIST">
+   <property name="text">
+    <string>P.LIST</string>
+   </property>
+  </action>
+  <action name="actionBooking">
+   <property name="text">
+    <string>Booking</string>
+   </property>
+  </action>
+  <action name="actionorderMidTerm">
+   <property name="text">
+    <string>Order Follow-up</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
